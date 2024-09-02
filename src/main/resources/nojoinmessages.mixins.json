@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hakimen.nojoinmessages.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nojoinmessages.refmap.json",
+  "mixins": [
+    "PlayerListBroadcastMessagesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
